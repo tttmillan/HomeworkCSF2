@@ -19,7 +19,10 @@ namespace ConsoleApp1
             Vehicle v1 = new Vehicle("Chevrolet", "Bel Air", 1957, 3273);
             Console.WriteLine(v1);
 
-
+            Login l1 = new Login();
+            l1.Userame = "Chewbacca";
+            l1.Password = "Millennium Falcon";
+            Console.WriteLine(l1);
         }
     }
 }
