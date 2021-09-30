@@ -27,6 +27,9 @@ namespace ConsoleApp1
             ContactInfo c1 = new ContactInfo("P.O. Box 49344", "Los Angles", "California", "90049", "323-461-0100", "NA");
             Console.WriteLine(c1);
 
+            Customer cus1 = new Customer("0001", "Harrison", "Ford", c1);
+            Console.WriteLine(cus1);
+
         }//end Main()
 
     }//end class
