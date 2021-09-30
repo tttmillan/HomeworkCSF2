@@ -49,5 +49,7 @@ namespace ClassLibrary1
         {
             return string.Format("Your Username is {0} and your Password is {1}", Userame, Password);
         }
-    }
-}
+
+    }//end class
+
+}//end namespace

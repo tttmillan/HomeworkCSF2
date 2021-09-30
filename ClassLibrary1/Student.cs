@@ -47,7 +47,7 @@ namespace ClassLibrary1
                 FirstName,
                 LastName);
         }
+        
+    }//end class
 
-
-    }
-}
+}//end namespace

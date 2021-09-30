@@ -78,7 +78,7 @@ namespace ClassLibrary1
         {
             return string.Format("The Weight of a {0} {1} {2} is {3} lbs.", Year, Make, Model, Weight);
         }
+        
+    }//end class
 
-
-    }
-}
+}//end namespace
