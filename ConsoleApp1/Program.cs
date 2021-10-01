@@ -33,7 +33,8 @@ namespace ConsoleApp1
             CreditCardAccount cc1 = new CreditCardAccount( 1, cus1, 1000m, false, 7);
             Console.WriteLine(cc1);
 
-
+            Book bk1 = new Book("Atlas Shrugged", "Ayn Rand", 1168);
+            Console.WriteLine(bk1);
 
         }//end Main()
 
