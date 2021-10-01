@@ -8,7 +8,7 @@ namespace ClassLibrary1
 {
     public class ContactInfo
     {
-        //Feilds
+        //Fields
 
         private string _streetAddress;
         private string _city;

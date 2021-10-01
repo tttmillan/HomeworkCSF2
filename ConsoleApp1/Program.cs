@@ -30,6 +30,11 @@ namespace ConsoleApp1
             Customer cus1 = new Customer("0001", "Harrison", "Ford", c1);
             Console.WriteLine(cus1);
 
+            CreditCardAccount cc1 = new CreditCardAccount( 1, cus1, 1000m, false, 7);
+            Console.WriteLine(cc1);
+
+
+
         }//end Main()
 
     }//end class
