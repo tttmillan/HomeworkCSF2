@@ -55,6 +55,11 @@ namespace ConsoleApp1
             Artist journey = new Artist(song1, "Journey's Greatest Hits", "Rock");
             Console.WriteLine(journey);
 
+            MotorHome mh1 = new MotorHome("Thor Motor Coach", "Daybreak 22GO", 2020, 8000, 3);
+            Console.WriteLine(mh1);
+
+
+
 
 
         }//end Main()
