@@ -58,8 +58,8 @@ namespace ConsoleApp1
             MotorHome mh1 = new MotorHome("Thor Motor Coach", "Daybreak 22GO", 2020, 8000, 3);
             Console.WriteLine(mh1);
 
-
-
+            Truck t1 = new Truck("Tesla", "Cybertruck", 2021, 6500, 10000);
+            Console.WriteLine(t1);
 
 
         }//end Main()

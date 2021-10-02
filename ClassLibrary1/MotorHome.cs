@@ -8,7 +8,7 @@ namespace ClassLibrary1
 {
     public class MotorHome : Vehicle
     {
-        //Feilds
+        //Fields
 
         //Prop
         public int NumberOfBeds { get; set; }
@@ -17,6 +17,10 @@ namespace ClassLibrary1
         {
             NumberOfBeds = numberOfBeds;
         }
+
+
+        //Method
+
 
         public override string ToString()
         {
