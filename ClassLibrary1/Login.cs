@@ -47,7 +47,7 @@ namespace ClassLibrary1
 
         public override string ToString()
         {
-            return string.Format("Your Username is {0} and your Password is {1}", Userame, Password);
+            return string.Format("Your Username is {0} and your Password is {1}\n", Userame, Password);
         }
 
     }//end class

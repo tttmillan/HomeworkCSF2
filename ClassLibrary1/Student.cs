@@ -43,7 +43,7 @@ namespace ClassLibrary1
         {
             return string.Format("Student\n" +
                 "First Name: {0}\n" +
-                "Last Name: {1}",
+                "Last Name: {1}\n",
                 FirstName,
                 LastName);
         }

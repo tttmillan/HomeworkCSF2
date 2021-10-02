@@ -35,6 +35,10 @@ namespace ClassLibrary1
 
         public override string ToString()
         {
+            return string.Format($"{CustomerID}\t\t{FirstName} {LastName}\n" +
+                //$"Phone: {ContactInformation.Phone}\n" +
+                //$"Email: {ContactInformation.Email}" +
+                $"{ContactInformation}"); 
             return CustomerID;
         }
 

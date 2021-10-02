@@ -83,7 +83,7 @@ namespace ClassLibrary1
                 "{0}\n" +
                 "{1}, {2} - {3}\n" +
                 "Phone Number: {4}\n" +
-                "Email: {5}",
+                "Email: {5}\n",
                 StreetAddress,
                 City,
                 State,

@@ -6,39 +6,37 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1
 {
-    public class Book
+     public class Song
     {
         //Fields
 
         //Prop
+        public string Artist { get; set; }
         public string Title { get; set; }
-        public string Author { get; set; }
-        public int NumberOfPages { get; set; }
-
+        public int LengthInSeconds { get; set; }
 
 
         //Ctor
-
-
-        public Book(string title, string author, int numberOfPages)
+        public Song()
         {
+
+        }
+
+        public Song(string artist, string title, int lengthInSeconds)
+        {
+            Artist = artist;
             Title = title;
-            Author = author;
-            NumberOfPages = numberOfPages;
+            LengthInSeconds = lengthInSeconds;
         }
 
 
-
-        //Methods
+        //Method
 
 
         public override string ToString()
         {
-            return string.Format($"\nTitle: {Title}\n" +
-                $"Author: {Author}\n" +
-                $"Number of Pages: {NumberOfPages}\n");
+            return string.Format($"The song {Title} by {Artist} is {LengthInSeconds} seconds long");
         }
-
 
                                     
     }//end class
