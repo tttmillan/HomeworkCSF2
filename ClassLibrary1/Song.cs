@@ -35,7 +35,7 @@ namespace ClassLibrary1
 
         public override string ToString()
         {
-            return string.Format($"The song {Title} by {Artist} is {LengthInSeconds} seconds long");
+            return string.Format($"The song {Title} by {Artist} is {LengthInSeconds} seconds long.");
         }
 
                                     

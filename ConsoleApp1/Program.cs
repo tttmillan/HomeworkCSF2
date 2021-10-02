@@ -43,9 +43,19 @@ namespace ConsoleApp1
             Library lib1 = new Library(books, "Price James Library", "104 E. Morgan Street", "Tipton", "MO", "65081");
             Console.WriteLine(lib1);
 
-            Song song1 = new Song("Mase", "Welcome Back", 274);
+            Song song1 = new Song("Journey", "Don't Stop Believin", 251);
             Console.WriteLine(song1);
-               
+            Song song2 = new Song("Journey", "Faithfully", 266);
+            Song song3 = new Song("Journey", "Anyway You Want It", 250);
+            Song song4 = new Song("Journey", "Open Arms", 200);
+            Song song5 = new Song("Journey", "Feeling That Way", 211);
+
+            Song[] tracks = { song1, song2, song3, song4, song5 };
+
+            Artist journey = new Artist(song1, "Journey's Greatest Hits", "Rock");
+            Console.WriteLine(journey);
+
+
 
         }//end Main()
 
